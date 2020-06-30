@@ -1,0 +1,103 @@
+p,
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: MicrosoftYaHei, "微軟正黑體", Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+canvas {
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+div.btnbg {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+/*Back to top button*/
+#button {
+    display: inline-block;
+    background-color: #ff9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#button:active {
+    background-color: #555;
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media (min-width: 500px) {
+
+    #button {
+        margin: 30px;
+    }
+}
+
+.navbar-inner {
+    background: transparent;
+}
+.navbar a{
+    color:white;
+}
+
+
+#topnavbar.down{
+
+    /*background-color: transparent!important;*/
+    animation: color-me-in 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-me-in {
+    from {background-color: transparent;}
+    to {background-color: #343a40;}
+    
+  }
+
+
+.dropdown-item img{
+    width: 20px;
+    height: 20px;
+}
