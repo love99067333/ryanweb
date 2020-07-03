@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<script src="{{ asset('js/pic.js') }}" defer></script>
+<script src="{{ asset('js/pic.min.js') }}" defer></script>
 <canvas id="sakura" height="400">
 
 </canvas>
