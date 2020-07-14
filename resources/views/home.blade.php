@@ -2,20 +2,12 @@
 
 @section('content')
 
-<div class="cards">
+<!-- <div class="cards">
     <div class="container">
 
         <div class="row">
 
-            <!-- <div class="card">
 
-    </div>
-    <div class="card">
-
-    </div>
-    <div class="card">
-
-    </div> -->
 
             <div class="card col-lg-4 col-md-6 mb-4 mb-lg-0" >
                 <div class="card-body">
@@ -57,7 +49,6 @@
                 </div>
             </div>
             <div class="card col-lg-4 col-md-6 mb-4 mb-lg-0" >
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                 <div class="card-body">
                     <h5 class="card-title text-center">興趣-Hobbies</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -121,5 +112,5 @@
 <h5>延伸</h5>
 <h5>延伸</h5>
 <h5>延伸</h5>
-<h5>延伸</h5>
+<h5>延伸</h5> -->
 @endsection
