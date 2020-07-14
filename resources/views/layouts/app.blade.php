@@ -15,10 +15,10 @@
     <title>{{ config('app.name', 'Ryan') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
@@ -307,8 +307,8 @@ distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
                 screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
                 }
                 </script>
-                            <script id="bg_fsh" type="x-shader/x_fragment">
-                                #ifdef GL_ES
+            <script id="bg_fsh" type="x-shader/x_fragment">
+                #ifdef GL_ES
                 //precision mediump float;
                 precision highp float;
                 #endif
@@ -343,8 +343,8 @@ distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
                 gl_FragColor = vec4(col.rgb * 2.0 - vec3(0.5), 1.0);
                 }
                 </script>
-                            <script id="fx_dirblur_r4_fsh" type="x-shader/x_fragment">
-                                #ifdef GL_ES
+            <script id="fx_dirblur_r4_fsh" type="x-shader/x_fragment">
+                #ifdef GL_ES
                 //precision mediump float;
                 precision highp float;
                 #endif
@@ -380,9 +380,9 @@ distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
                 gl_FragColor = texture2D(uSrc, texCoord);
                 }
                 </script>
-                            <!-- post processing -->
-                            <script id="pp_final_vsh" type="x-shader/x_vertex">
-                                uniform vec3 uResolution;
+            <!-- post processing -->
+            <script id="pp_final_vsh" type="x-shader/x_vertex">
+                uniform vec3 uResolution;
                 attribute vec2 aPosition;
                 varying vec2 texCoord;
                 varying vec2 screenCoord;
@@ -424,11 +424,13 @@ distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
                 </main>
 
             </div>
-
+            <!-- Scripts -->
+            <script src="{{ asset('js/app.js') }}"></script>
+            @yield('javascript');
         </div>
 
     </div>
-    <a id="button"></a>
+    <a id="button">123</a>
 
 
 

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-
-<!-- <div class="cards">
+<script type="text" src="{{ asset('js/app.js') }}" defer></script>
+<div class="cards">
     <div class="container">
 
         <div class="row">
@@ -112,5 +112,5 @@
 <h5>延伸</h5>
 <h5>延伸</h5>
 <h5>延伸</h5>
-<h5>延伸</h5> -->
+<h5>延伸</h5>
 @endsection
