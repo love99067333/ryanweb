@@ -110,6 +110,7 @@ div.btnbg {
 }
 .profile .col-sm-2 img{
     width: 100%;
+    margin-top: -120px;
 }
 .profile .links{
     margin: 10px 0px;

@@ -122,14 +122,15 @@
             </div>
 
         </div>
-        <div class="col-sm-12">
+        <!-- <div class="col-sm-12">
             <div class="row">
                 <div class="col-sm-12">
                     <h1>工作經驗</h1>
                 </div>
             </div>
 
-        </div>
+        </div> -->
+        <hr>
     </div>
 
 </div>
