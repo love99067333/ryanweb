@@ -18,6 +18,9 @@ body {
     padding: 0;
     margin: 0;
 }
+h1{
+    font-weight: bold;
+}
 canvas {
     padding: 0;
     margin: 0;
@@ -85,9 +88,10 @@ div.btnbg {
 
 #topnavbar.down{
 
-    /*background-color: transparent!important;*/
+
     animation: color-me-in 1s;
     animation-fill-mode: forwards;
+    background: #000!important;
 }
 
 @keyframes color-me-in {
@@ -100,4 +104,28 @@ div.btnbg {
 .dropdown-item img{
     width: 20px;
     height: 20px;
+}
+.profile,.skills,.experience{
+    margin: 50px 0px;
+}
+.profile .col-sm-2 img{
+    width: 100%;
+}
+.profile .links{
+    margin: 10px 0px;
+}
+
+.profile .links a{
+    font-size: 24px;
+    color: black;
+} 
+.profile p {
+    margin-bottom: 3px;
+}
+hr{
+    border: none;
+    border-top: #979797 2px solid;
+    height: 2px;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }

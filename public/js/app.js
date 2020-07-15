@@ -1,6 +1,6 @@
 
 //Back to top button
-console.log(0)
+
 var btn = $('#button');
 
 $(window).scroll(function () {
