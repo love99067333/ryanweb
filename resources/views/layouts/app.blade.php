@@ -8,8 +8,7 @@
     <!-- 如果要上傳heroku需要將下列一行取消註解 -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-
-
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

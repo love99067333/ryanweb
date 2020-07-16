@@ -87,7 +87,7 @@
     </div>
 
 
-    <div class="experience">
+    <div class="resume">
         <div class="col-sm-12">
             <div class="row">
                 <div class="col-sm-12">
@@ -108,12 +108,54 @@
                     <p>上方會提供GitHub連結，有興趣可以參考。</p>
                     <p></p>
                     <p></p>
-                    
-                    
-                    
-                    
-                    
-                    
+
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+    </div>
+    <div class="experience">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>工作經驗</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 item">
+
+                    <ul id="experience-title">
+                        <li>
+                        <h5><strong>工業技術研究院-服科部</strong> 【工程人才】 <span>2020-03-02~2020-08-31</span></h5>
+                            <ul id="experience-content">
+                                <li>使用Laravel框架開發運動激勵點數平台之後台管理介面、API。</li>
+                                <li>使用Ionic開發APP串接上列之API，作為用戶端供運動者使用。</li>
+                                <li>協助開發、改善科技體適能之介面。</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>
+                        <h5><strong>新南向馬來西亞實習</strong> 【實習工程師】 <span>2019-07-11~2019-09-08</span></h5>
+                            <ul id="experience-content">
+                                <li>使用Ionic開發Hybrid Web App，</li>
+                                <li>231</li>
+                                <li>231354</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+
+
+
+
 
 
 
@@ -122,14 +164,34 @@
             </div>
 
         </div>
-        <!-- <div class="col-sm-12">
+
+        <hr>
+    </div>
+    <div class="portfolio">
+        <div class="col-sm-12">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1>工作經驗</h1>
+                    <h1>作品集</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 item">
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
 
-        </div> -->
+        </div>
+
         <hr>
     </div>
 
