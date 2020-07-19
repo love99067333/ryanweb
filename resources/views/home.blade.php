@@ -86,7 +86,7 @@
         <div class="row" title="">
             <div class="col-sm-6 item">
                 <hr>
-                <h1><span style="font-size: 24px;">Font-End<br></span></h1>
+                <h1><span style="font-size: 24px;">Front-End<br></span></h1>
                 <p></p>
                 <ul>
                     <li><span style="font-size: 16px;">Html</span></li>
