@@ -56,7 +56,33 @@
 
 
 <body>
+    <script>
+        var btn = $('#button');
 
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        var topnav = $('#topnavbar');
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 100) {
+                topnav.addClass('down');
+
+            } else {
+                topnav.removeClass('down');
+
+            }
+        });
+
+        btn.on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+        });
+    </script>
     <div id="app">
         <!-- <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm mb-0">
             <div class="container d-flex justify-content-between-fluid">
@@ -433,13 +459,42 @@ distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
 
             </div>
             <!-- Scripts -->
-            <script src="{{ asset('js/app.js') }}"></script>
+            <!-- <script src="{{ asset('js/app.js') }}"></script> -->
             @yield('javascript')
         </div>
 
     </div>
-    <a id="button"></a>
 
+    <a id="button"></a>
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        var topnav = $('#topnavbar');
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 100) {
+                topnav.removeClass('bg-transparent');
+                topnav.addClass('down');
+
+            } else {
+                topnav.removeClass('down');
+                topnav.addClass('bg-transparent');
+
+            }
+        });
+
+        btn.on('click', function(e) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+        });
+    </script>
 
 
     <!--Footer-->

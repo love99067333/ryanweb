@@ -13,10 +13,15 @@ $(window).scroll(function () {
 var topnav = $('#topnavbar');
 $(window).scroll(function () {
     if ($(window).scrollTop() > 100) {
+
+        
+        topnav.removeClass('bg-transparent');
         topnav.addClass('down');
         
     } else {
         topnav.removeClass('down');
+        topnav.addClass('bg-transparent');
+         
 
     }
 });
