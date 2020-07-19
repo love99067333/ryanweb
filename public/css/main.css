@@ -82,18 +82,12 @@ div.btnbg {
 .navbar a {
     color: white;
 }
-#topnavbar.down {
-    animation: color-me-in 1s;
-    animation-fill-mode: forwards;
-    background: #000 !important;
-}
-
 @keyframes color-me-in {
     from {
-        background-color: transparent;
+        background: none;
     }
     to {
-        background-color: #343a40;
+        background: #343a40;
     }
 }
 

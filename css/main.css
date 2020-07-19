@@ -82,20 +82,18 @@ div.btnbg {
 .navbar a {
     color: white;
 }
+@keyframes color-me-in {
+    from {
+        background: none;
+    }
+    to {
+        background: #343a40;
+    }
+}
 
 #topnavbar.down {
     animation: color-me-in 1s;
     animation-fill-mode: forwards;
-    background: #000 !important;
-}
-
-@keyframes color-me-in {
-    from {
-        background-color: transparent;
-    }
-    to {
-        background-color: #343a40;
-    }
 }
 
 .dropdown-item img {
@@ -132,13 +130,13 @@ hr {
     margin-bottom: 15px;
 }
 
-#experience-content{
+#experience-content {
     list-style-type: trad-chinese-formal;
 }
-#experience-title span{
+#experience-title span {
     font-size: 16px;
 }
-.portfolio img{
+.portfolio img {
     max-width: 100%;
     margin-bottom: 20px;
 }
