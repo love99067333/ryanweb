@@ -244,7 +244,7 @@
             <div class="row">
                 <div class="col-sm-12">
 
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Mehxq5kcbJE' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/Mehxq5kcbJE' frameborder='0'></iframe></div>
                 </div>
             </div>
             <hr>
@@ -277,7 +277,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/YfDnUsIT5B0' frameborder='0' allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/YfDnUsIT5B0' frameborder='0'></iframe></div>
 
                 </div>
 
@@ -320,7 +320,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class='embed-container'><iframe src='https://www.youtube.com/embed/IhcjrPnGMeA' frameborder='0' allowfullscreen></iframe></div>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed/IhcjrPnGMeA' frameborder='0'></iframe></div>
 
             </div>
 

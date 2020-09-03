@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-weqw
+施工中
 @endsection

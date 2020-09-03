@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 如果要上傳heroku需要將下列一行取消註解 -->
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <!-- CSRF Token -->
@@ -114,35 +114,39 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" id="topnavbar">
-            <a class="navbar-brand text-white" href="/">{{ config('app.name', 'Ryan') }}</a>
+            <a class="navbar-brand text-white" style="font-size: 25px;" href="/">{{ config('app.name', 'Ryan') }}</a>
             <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link text-white" href="/about">About <span class="sr-only">(current)</span></a>
-                    </li>
+                    </li> -->
                     <!-- <li class="nav-item active">
                         <a class="nav-link" href="">Link</a>
                     </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
-                            Contact
+                            更多資訊
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-dark" href="#">
+                            <a class="dropdown-item text-dark" href="https://www.facebook.com/profile.php?id=100003355624206">
                                 <img src="{{ asset('pic/fb.svg') }}">
                                 FB
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item text-dark" href="#">
+                            <!-- <a class="dropdown-item text-dark" href="#">
                                 <img src="{{ asset('pic/ig.svg') }}">
                                 IG
+                            </a> -->
+                            <a class="dropdown-item text-dark" href="/download/Resume.pdf" download >
+                                <img src="{{ asset('pic/resume.png') }}">
+                                下載我的單頁履歷
                             </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item text-dark" href="#">More Informaion</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-dark" href="#">More Informaion</a> -->
                         </div>
                     </li>
                     <!-- <li class="nav-item">
