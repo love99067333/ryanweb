@@ -73,7 +73,9 @@
                     <li><span style="font-size: 16px;">版本控管:GitHub</span></li>
 
 
-                    <li><span style="font-size: 16px;">資訊安全</span></li>
+                    <li><span style="font-size: 16px;">資訊安全 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2020-00312" target="_blank" rel="noopener noreferrer">(在Hitcon回報漏洞)</a></span></li>
+                    
+                    <li><span style="font-size: 16px;">Leetcode <a href="https://leetcode.com/love99067333/" target="_blank" rel="noopener noreferrer">(寫得不多Orz)</a></span></li>
 
 
                     <li><span style="font-size: 16px;">專案管理</span></li>
@@ -106,6 +108,7 @@
                     <li><span style="font-size: 16px;">PHP</span></li>
                     <li><span style="font-size: 16px;">MySQL、MariaDB、MongoDB</span><br></li>
                     <li><span style="font-size: 16px;">Apache、Heroku、Free Host</span><br></li>
+                    <li><span style="font-size: 16px;">熟悉Linux:Ubuntu、樹莓派(Raspbian)</span><br></li>
                 </ul>
                 <p></p>
             </div>
@@ -129,7 +132,7 @@
                     <p>伺服器有Apache的經驗，經費關係沒有使用過AWS、GCP..付費主機，有使用免費主機、Heroku..等，使用過樹莓派架設Laravel專案。</p>
                     <p>資料庫使用過Mysql、MariaDB、MongoDB；</p>
                     <p>版本控管的觀念，常使用GitHub，有時推上Heroku；</p>
-                    <p>對資安有基本的認識，封包擷取、資料庫密碼雜湊、交易驗證..等等，曾在Hitcon回報漏洞(<a href="https://ppt.cc/fq4Aix">查看</a>)</p>
+                    <p>對資安有基本的認識，封包擷取、資料庫密碼雜湊、交易驗證..等等，曾在Hitcon回報漏洞</p>
                     <p>也會使用Ionic開發APP、Web APP，詳細的程式語言不一一列出了。</p>
                     <p></p>
                     <p>上方會提供GitHub連結，有興趣可以參考。</p>
@@ -153,6 +156,15 @@
                 <div class="col-sm-12 item">
 
                     <ul id="experience-title">
+                        <li>
+                            <h5><strong>工業技術研究院-服科部</strong> 【後端工程師】 <span>2020-08-31~2020-12-31</span></h5>
+                            <ul id="experience-content">
+                                <li>與接續他人、與他人合作開發Laravel專案(後台管理)</li>
+                                <li>使用Ionic開發APP串接上列之API，作為用戶端供運動者使用。</li>
+                                <li>協助開發、優化科技體適能之介面。</li>
+                            </ul>
+                        </li>
+                        <br>
                         <li>
                             <h5><strong>工業技術研究院-服科部</strong> 【工程人才】 <span>2020-03-02~2020-08-31</span></h5>
                             <ul id="experience-content">
