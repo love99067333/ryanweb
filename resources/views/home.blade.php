@@ -157,11 +157,10 @@
 
                     <ul id="experience-title">
                         <li>
-                            <h5><strong>工業技術研究院-服科部</strong> 【後端工程師】 <span>2020-08-31~2020-12-31</span></h5>
+                            <h5><strong>工業技術研究院-服科部</strong> 【後端工程師】 <span>2020-09-01~2020-12-31</span></h5>
                             <ul id="experience-content">
                                 <li>與接續他人、與他人合作開發Laravel專案(後台管理)</li>
-                                <li>使用Ionic開發APP串接上列之API，作為用戶端供運動者使用。</li>
-                                <li>協助開發、優化科技體適能之介面。</li>
+                                
                             </ul>
                         </li>
                         <br>
