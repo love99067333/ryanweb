@@ -36,7 +36,8 @@
 
                     <a href="https://github.com/love99067333" target="_blank" rel="nofollow noopener noreferrer"><i class="fa fa-github"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100003355624206" target="_blank" rel="nofollow noopener noreferrer"><i class="fa fa-facebook-square" aria-hidden="true"></i></i></a>
-
+                    <a href="https://ryantechweb.blogspot.com/" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-blogger-b" aria-hidden="true"></i></i></a>
+                    
                 </div>
                 <p>全端工程師</p>
                 <p>Tainan,TW</p>
@@ -70,16 +71,12 @@
                 <h1><span style="font-size: 24px;">其他技能</span></h1>
                 <p></p>
                 <ul>
+
+                    <li><span style="font-size: 16px;">物聯網</span></li>
                     <li><span style="font-size: 16px;">版本控管:GitHub</span></li>
-
-
                     <li><span style="font-size: 16px;">資訊安全 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2020-00312" target="_blank" rel="noopener noreferrer">(在Hitcon回報漏洞)</a></span></li>
-                    
                     <li><span style="font-size: 16px;">Leetcode <a href="https://leetcode.com/love99067333/" target="_blank" rel="noopener noreferrer">(寫得不多Orz)</a></span></li>
-
-
                     <li><span style="font-size: 16px;">專案管理</span></li>
-
                     <li><span style="font-size: 16px;">英文能力:多益650(聽:380、寫:270)</span></li>
                 </ul>
                 <p></p>
@@ -160,7 +157,7 @@
                             <h5><strong>工業技術研究院-服科部</strong> 【後端工程師】 <span>2020-09-01~2020-12-31</span></h5>
                             <ul id="experience-content">
                                 <li>與接續他人、與他人合作開發Laravel專案(後台管理)</li>
-                                
+
                             </ul>
                         </li>
                         <br>
